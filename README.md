@@ -34,134 +34,67 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a> 
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Readme file template</h3>
 
-<h4 align="center">project_description</h4>
+<h4 align="center">This is a discription on how to create a good readme, to actually do this use the ["BLANK_README.md"](https://github.com/DouweHorsthuis/README-Template/blob/master/BLANK_README.md) file, this does not contain all this extra info that is already linked etc. This whole repo is a edit, the original is from [othneildrew](https://github.com/othneildrew/Best-README-Template)</h4>
 
-<!-- I think the table of contents is cleaner and more readable in markdown, so using markdown for these parts
-the basics are, put whatever you want to show up in [] put whatever you want to link to in () the linking part cannot
-have any spaces/characters, replaces spaces with - (_ does not work) the numbering should be indiferent (as you can see below) -->
+<!-- I think the table of contents is cleaner and more readable in markdown, so using markdown for these parts -->
 
 **Table of Contents**
   
 1. [About the project](#about-the-project)
     - [Built With](#built-with)
 2. [Getting started](#getting-started)
-    - [Prerequisites](#prerequisites)  
-    - [Installation](#installation)  
-3. [Roadmap](#roadmap)
-3. [Contributing](#contributing)
-3. [License](#license)
-3. [Contact](#contact)
-3. [Acknowledgement](#acknowledgement)
 3. [Usage](#usage)
+    - [Adding headers](#adding-headers)
+3. [Tools](#tools)
+
 
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
+This is a very general readme file, that explains how to use or setup certain functions.
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
+The whole project is a mix of HTML and Markdown. I personally find Markdown easier to read, but HTML has sometimes more options. For example to align text (see the title or the discription) you need HTML, but to have a clean and easy to create index, Markdown looks better.
+
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+This readme was downloaded with using Rstudio. You can use a lot of different programs, but R studio allows you to create a preview very easily, so you can see very quickly if it works what you did.
+* [Rstudio](https://www.rstudio.com/products/rstudio/)
+
+However, you can just do the whole thing online in Github by clicking on the readme.md file and clicking the pencil button to edit.
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-
+To download this in Rstudio you need the language [R](https://www.r-project.org/) and [Rstudio](https://www.rstudio.com/products/rstudio/) + the [Git plugin](https://gitforwindows.org/). Once you have all 3 installed you should be able to download any repo and edit the readme files. 
+[See this tutorial for more info.](https://happygitwithr.com/rstudio-git-github.html)
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+You can do a lot of things in these readme files. For example you can add images:
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This is an example of how to enter a figure, if you save the figure in your repo, you can link to it directly (it might be helpful when uploading figure/plots). 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+You can link to any website by typing something inside [] directly followed by the url in (), make sure there are no spaces between []()
 
+You can also add code, the easiest way of doing it is by adding 3 \``` followed by the language, 1 enter, the code, one enter and finishing with \```
+This will end up looking like this 
+```matlab
+matlabfucntion2.1() % whatever
+```
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+### adding headers 
+adding headers is done by putting # infront of a sentence or word followed by a space. The more # the smaller the header. Small reminder, if you add a header, also add it to the index. To add something to the index put whatever you want to show up in [] put whatever you want to link to in () the linking starts with a # cannot contain capitals,spaces or underscores replace these with a - . As you can see in the index part, the number before the index does not matter, it'll calculate the right order itself.
 
 
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+## Tools
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Img Shields](https://shields.io)
 * [Choose an Open Source License](https://choosealicense.com)
