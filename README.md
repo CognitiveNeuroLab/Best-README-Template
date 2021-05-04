@@ -26,55 +26,33 @@ Just-testing-something-douwe
 
 
 <!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+<!-- there is no way to align things when using Markdown, so in these instances we use HTML -->
+<!-- if you want to use a logo, make sure to upload your logo to your repo, or link to another place where it's online -->
 
-  <h3 align="center">Best-README-Template</h3>
+<img  align="center" width="80" height="80" src="https://github.com/github_username/repo/images/logo.png">
+  
 
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</p>
+<h3 align="center">project_title</h3>
 
+<h4 align="center">project_description</h4>
 
+<!-- I think the table of contents is cleaner and more readable in markdown, so using markdown for these parts
+the basics are, put whatever you want to show up in [] put whatever you want to link to in () the linking part cannot
+have any spaces/characters, replaces spaces with - (_ does not work) the numbering should be indiferent (as you can see below) -->
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
+**Table of Contents**
+  
+1. [About the project](#about-the-project)
+    - [Built With](#built-with)
+2. [Getting started](#getting-started)
+    - [Prerequisites](#prerequisites)  
+    - [Installation](#installation)  
+3. [Roadmap](#roadmap)
+3. [Contributing](#contributing)
+3. [License](#license)
+3. [Contact](#contact)
+3. [Acknowledgement](#acknowledgement)
+3. [Usage](#usage)
 
 
 
