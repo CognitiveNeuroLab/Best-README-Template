@@ -36,7 +36,7 @@
 
 <h3 align="center">Readme file template</h3>
 
-<h4 align="center">This is a discription on how to create a good readme, to actually do this use the ["BLANK_README.md"](https://github.com/DouweHorsthuis/README-Template/blob/master/BLANK_README.md) file, this does not contain all this extra info that is already linked etc. This whole repo is a edit, the original is from [othneildrew](https://github.com/othneildrew/Best-README-Template)</h4>
+<h4 align="center">This is a discription on how to create a good readme, to actually do this use the <a href="https://github.com/DouweHorsthuis/README-Template/blob/master/BLANK_README.md">"BLANK_README.md"</a> ["BLANK_README.md"](https://github.com/DouweHorsthuis/README-Template/blob/master/BLANK_README.md) file, this does not contain all this extra info that is already linked etc. This whole repo is a edit, the original is from [othneildrew](https://github.com/othneildrew/Best-README-Template)</h4>
 
 <!-- I think the table of contents is cleaner and more readable in markdown, so using markdown for these parts -->
 
