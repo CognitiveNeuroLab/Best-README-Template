@@ -21,8 +21,11 @@ If you want to use markdown or HTML but you are not familiar check: https://www.
 <!-- there is no way to align things when using Markdown, so in these instances we use HTML -->
 <!-- if you want to use a logo, make sure to upload your logo to your repo, or link to another place where it's online -->
 
-<img  align="center" width="80" height="80" src="https://github.com/github_username/repo/images/logo.png">
-  
+<br />
+<p align="center">
+  <a href="https://github.com/github_username/repo/">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a> 
 
 <h3 align="center">project_title</h3>
 
